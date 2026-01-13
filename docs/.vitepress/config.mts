@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 // 通常需要修改 base 路径,通常为 "/仓库名/", 否则为"/"
-const base = '/docs-template/'
+const base = '/docs/'
 
 export default defineConfig({
   base,
