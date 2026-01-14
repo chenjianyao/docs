@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,ak as h}from"./chunks/framework._Nw1hk6P.js";const g=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"spring/aop.md","filePath":"spring/aop.md"}'),k={name:"spring/aop.md"};function l(t,s,p,e,E,r){return n(),a("div",null,[...s[0]||(s[0]=[h("",69)])])}const y=i(k,[["render",l]]);export{g as __pageData,y as default};
