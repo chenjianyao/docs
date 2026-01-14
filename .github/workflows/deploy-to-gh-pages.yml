@@ -57,6 +57,6 @@ jobs:
           git add -A
           git commit -m "😄 Auto deploy by github actions"
           remote_addr=`echo $remote_addr | awk -F'://' '{print $2}'`
-          remote_addr=https://chenjianyao:${GITHUB_TOKEN}@github.com/chenjianyao/docs.git
+          remote_addr=https://${user_name}:${{secrets.GITHUB_TOKEN}}@${remote_addr}
           git remote add origin ${remote_addr}
           git push origin HEAD:$deploy_branch --force
